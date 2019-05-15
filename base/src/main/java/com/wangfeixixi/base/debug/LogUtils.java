@@ -3,7 +3,7 @@ package com.wangfeixixi.base.debug;
 import android.os.SystemClock;
 import android.util.Log;
 
-import com.wangfeixixi.base.utils.ConfigUtils;
+import com.wangfeixixi.base.utils.VersionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,38 +14,38 @@ public class LogUtils {
     public static String TAG = "wangfeiTest";
 
     public static void v(String format, Object... args) {
-        if (ConfigUtils.isApkInDebug()) {
+        if (VersionUtils.isApkInDebug()) {
             Log.v(TAG, buildMessage(format, args));
         }
     }
 
     public static void d(String format, Object... args) {
-        if (ConfigUtils.isApkInDebug())
+        if (VersionUtils.isApkInDebug())
             Log.d(TAG, buildMessage(format, args));
     }
 
     public static void d(Object... args) {
-        if (ConfigUtils.isApkInDebug())
+        if (VersionUtils.isApkInDebug())
             Log.d(TAG, buildMessage("%s", args));
     }
 
     public static void e(String format, Object... args) {
-        if (ConfigUtils.isApkInDebug())
+        if (VersionUtils.isApkInDebug())
             Log.e(TAG, buildMessage(format, args));
     }
 
     public static void e(Throwable tr, String format, Object... args) {
-        if (ConfigUtils.isApkInDebug())
+        if (VersionUtils.isApkInDebug())
             Log.e(TAG, buildMessage(format, args), tr);
     }
 
     public static void wtf(String format, Object... args) {
-        if (ConfigUtils.isApkInDebug())
+        if (VersionUtils.isApkInDebug())
             Log.wtf(TAG, buildMessage(format, args));
     }
 
     public static void wtf(Throwable tr, String format, Object... args) {
-        if (ConfigUtils.isApkInDebug())
+        if (VersionUtils.isApkInDebug())
             Log.wtf(TAG, buildMessage(format, args), tr);
     }
 

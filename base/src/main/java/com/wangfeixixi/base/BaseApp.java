@@ -2,8 +2,8 @@ package com.wangfeixixi.base;
 
 import android.app.Application;
 
-import com.wangfeixixi.base.utils.ConfigUtils;
 import com.wangfeixixi.base.debug.CrashHandler;
+import com.wangfeixixi.base.utils.VersionUtils;
 
 public class BaseApp extends Application {
 
@@ -12,7 +12,7 @@ public class BaseApp extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
-        if (ConfigUtils.isApkInDebug()) {
+        if (VersionUtils.isApkInDebug()) {
             CrashHandler.getInstance().init();
 
         }

@@ -12,7 +12,6 @@ import com.wangfeixixi.base.fram.themvp.view.IDelegate;
  * Presenter层的实现基类
  *
  * @param <T> View delegate class type
- * @author kymjs (http://www.kymjs.com/) on 10/23/15.
  */
 public abstract class ActivityPresenter<T extends IDelegate> extends AppCompatActivity {
     protected T viewDelegate;

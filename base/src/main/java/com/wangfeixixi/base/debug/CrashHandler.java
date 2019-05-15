@@ -47,7 +47,7 @@ public class CrashHandler implements UncaughtExceptionHandler {
     }
 
     public static String TAG = "crashHandle";
-    public static String FileName = "1111111111111111111111111";
+    public static String FileName = "xixibase";
     // 系统默认的UncaughtException处理类
     private UncaughtExceptionHandler mDefaultHandler;
 
