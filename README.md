@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # FrameXixi
 
   TheMvp+Fragmentation的结合使用
