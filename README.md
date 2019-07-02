@@ -19,10 +19,10 @@
             }
 2.module的build.gradle添加
 
-          implementation 'com.github.wangfeixixi:frameXixi:vertion'
+             implementation 'com.github.wangfeixixi:FrameXixi:Tag'
 		  
-vertion最新版本如下
-[![](https://jitpack.io/v/wangfeixixi/LogXixi.svg)](https://jitpack.io/#wangfeixixi/LogXixi)
+Tag最新版本如下
+[![](https://jitpack.io/v/wangfeixixi/FrameXixi.svg)](https://jitpack.io/#wangfeixixi/FrameXixi)
 
 	  
 ### 开始使用啦！
