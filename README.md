@@ -1,9 +1,6 @@
 
 # FrameXixi
 
-  TheMvp+Fragmentation的结合使用
-
-
 ******
 
 ### 配置： 
@@ -27,11 +24,7 @@ Tag最新版本如下
 	  
 ### 开始使用啦！
 
-1.封装自己的基类
-
-    	  1.public abstract class BaseActivity<T extends IDelegate> extends ActivityPresenter<T>
-    	  2.public abstract class BaseFragment<T extends IDelegate> extends FragmentPresenter<T> 
-    	  3.public abstract class BaseDelegate extends AppDelegate 
+继承：BaseActivity,BaseDelegate,BaseFragment
 
 
 ### 如果觉得好请给我点赞哈！

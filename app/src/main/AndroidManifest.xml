@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".base.BaseActivity" />
+        <activity android:name=".sample.SampleActivity" />
     </application>
 
 </manifest>
